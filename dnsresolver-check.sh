@@ -227,7 +227,7 @@ function test-DNSSEC-algo {
     }
 
 function test-DNSSEC-misc {
-     step "verify DNSSEC validation of TLSA record (GMX.NET)"
+     step "verify DNSSEC validation of TLSA record"
      try dnssecquery _25._tcp.dnssec.works. TLSA
      next
      step "verify DNSSEC validation of NXDOMAIN answer"
