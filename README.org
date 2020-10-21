@@ -1,0 +1,7 @@
+* dns-resolver-monitoring
+
+Scripts for DNS resolver monitoring
+
+This repository contains a collection of functional checks for a DNS resolver
+
+use
